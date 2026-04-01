@@ -130,12 +130,6 @@ This eigenspace behavior explains why Normalized Cut consistently gave better se
 
 ```text
 spectral-image-segmentation/
-├── kernel_kmeans_image1.png
-├── kernel_kmeans_image2.png
-├── ratio_cut_image1.png
-├── ratio_cut_image2.png
-├── normalized_cut_image1.png
-├── normalized_cut_image2.png
 ├── ratio_cut_eigenspace_image1.png
 ├── ratio_cut_eigenspace_image2.png
 ├── normalized_cut_eigenspace_image1.png
@@ -151,7 +145,9 @@ spectral-image-segmentation/
 │   └── image_segmentation.ipynb
 ├── report/
 │   └── report.pdf
-
+├── data_image/
+│   └── image1
+    └── image2
 ```
 ---
 

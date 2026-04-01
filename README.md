@@ -165,14 +165,23 @@ spectral-image-segmentation/
 3. Normalized Cut
     Normalized Cut gives the cleanest segmentations and the most stable boundaries. It consistently respects image structure better than the other methods.
 
-Eigenspace Plots
 
-The eigenspace plots show a clear contrast:
-
-a. Ratio Cut: distorted, unstable embeddings
-b. Normalized Cut: smooth, interpretable manifold structure
 
 ---
 
+## Eigenspace Analysis
 
+The eigenspace plots below illustrate the difference between **Ratio Cut** and **Normalized Cut**.  
+While Ratio Cut produces distorted embeddings with poor geometric separation, Normalized Cut forms a smooth manifold that leads to more stable clustering.
 
+### Image 1
+| Ratio Cut | Normalized Cut |
+|---|---|
+| ![Image 1 Ratio Cut Eigenspace](img1_ratio_eigenspace.png) | ![Image 1 Normalized Cut Eigenspace](img1_ncut_eigenspace.png) |
+
+### Image 2
+| Ratio Cut | Normalized Cut |
+|---|---|
+| ![Image 2 Ratio Cut Eigenspace](img2_ratio_eigenspace.png) | ![Image 2 Normalized Cut Eigenspace](img2_ncut_eigenspace.png) |
+
+---

@@ -153,5 +153,26 @@ spectral-image-segmentation/
 │   └── report.pdf
 
 ```
+---
+
+## Visual Results
+1. Kernel K-Means
+    Kernel K-Means can segment the main regions of an image, but the final output may contain noisy boundaries and fragmented patches near object edges.
+
+2. Ratio Cut
+    Ratio Cut often produces unstable intermediate segmentations and distorted eigenspace geometry, making it the least reliable method in this project.
+
+3. Normalized Cut
+    Normalized Cut gives the cleanest segmentations and the most stable boundaries. It consistently respects image structure better than the other methods.
+
+Eigenspace Plots
+
+The eigenspace plots show a clear contrast:
+
+a. Ratio Cut: distorted, unstable embeddings
+b. Normalized Cut: smooth, interpretable manifold structure
+
+---
+
 
 
